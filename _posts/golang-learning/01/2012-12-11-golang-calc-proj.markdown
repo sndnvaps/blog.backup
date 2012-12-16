@@ -32,13 +32,14 @@ title: golang-learnging
 <pre>
   <code>
    *calcproj*
-     |--*calc*
-          |--calc.go
-     |--*simplemath*
-          |--add.go
-          |--add_test.go
-          |--sqrt.go
-          |--sqrt_test.go
+      |--*src*
+	     |--*calc*
+             |--calc.go
+         |--*simplemath*
+             |--add.go
+             |--add_test.go
+             |--sqrt.go
+             |--sqrt_test.go
      |--*bin*
      |--*pkg*
 
