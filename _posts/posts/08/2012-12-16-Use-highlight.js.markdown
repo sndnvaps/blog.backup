@@ -2,6 +2,7 @@
 layout: post
 uri: /posts/08
 permalink: /posts/08/index.html
+styles: [syntax]
 title: 使用highlight.js实现博客中的代码高亮
 ---
 
@@ -15,17 +16,14 @@ title: 使用highlight.js实现博客中的代码高亮
 
 例如我把highligh.zip解压到了/javascripts/highligh
 下面的操作就非常简单了，往要添加高亮的见面中加入如下的定义：
-<pre>
- <code class="html">
+{% highlight html %}
   <link rel="stylesheet" href=/javascripts/highlight/styles/tomorrow-night-eighties.css">
   <script src="/javascripts/highlight/highlight.pack.js"></script>
   <script>hljs.initHighlighingOnLoad();</script>
- </code>
-</pre>
 
+{% endhighlight %}
 
 ##例子一个
-```html
 
 <pre> 
   <code class="c">
@@ -37,7 +35,7 @@ title: 使用highlight.js实现博客中的代码高亮
  </code>
 </pre>
 
-```
+
 
 **重点**
 在
