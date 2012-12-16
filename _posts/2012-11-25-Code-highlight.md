@@ -23,6 +23,15 @@ title: 语法高亮
  
  {% endhighlight %}
  
+<h2>C语言代码</h2>
+'''c
+ #include <stdio.h>
+ int main() {
+  printf("Hello World form y.ipy.cc \n");
+  return 0;
+  }
+ 
+ 
 ###在markdown文件中加入图片元素
  {% highlight html %}
  <img src="/images/post/pic-name.jpg" width="xxx" height="xxx" border="0" alt=""/>
