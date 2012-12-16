@@ -24,7 +24,21 @@ title: 使用highlight.js实现博客中的代码高亮
 {% endhighlight %}
 
 ##例子一个
+*源代码*
+{% highlight html %}
+<pre> 
+  <code class="c">
+  #include <stdio.h>
+  int main() {
+  printf("Hello World\n");
+  return 0;
+ }
+ </code>
+</pre>
+{% endhighlight %}
 
+
+*效果*
 <pre> 
   <code class="c">
   #include <stdio.h>
