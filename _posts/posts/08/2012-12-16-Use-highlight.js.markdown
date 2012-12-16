@@ -51,6 +51,10 @@ title: 使用highlight.js实现博客中的代码高亮
 
 
 
+```html
+<a href="example.com" >example</a>
+```
+
 **重点**
 在
 html代码中的code包围的代码中，要用到class指定语言。
