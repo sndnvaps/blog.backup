@@ -29,6 +29,14 @@ title: Git常用命令
  git pull origin master #相当于从远程获取最新的版本并merge(合并）到本地的master分支，相当于git fetch和git merge 
  git checkout branch-name #可以切换分支和检出分支
  git checkout --orphan gh-pages #基于master分支创建一个没有父节点的分支，名字为gh-pages 
+ git remote add origin git@github.com:username/project-name.git #添加远程仓库，另名为origin
+ git clone git@github.com:username/project-name.git  #把远程仓库克隆到本了，生成文件夹project-name ,此时project-name中的远程分支另名为origin
+ git remote rm origin #删除远程分支的另名，origin,如果要重新添加，就要用git remote add url
+
+ 
+
+
+
 
  </code>
 </pre>
