@@ -22,7 +22,7 @@ title: Git常用命令
  git fetch  origin master #从远程的master分支下载最新的版本到本地，但是不会自动merge(合并）
  git log -p master ../origin/master #比较本地的master分支和origin/master分支的差别
  git merge origin/master #合并分支
- git  fetch origin master:tmp #从远程下载最新的版本到tmp分支
+ git fetch origin master:tmp #从远程下载最新的版本到tmp分支
  git diff tmp #比较tmp分支和当前活动的分支（默认主分支为master)
  git diff tmp > 0001.patch #比较tmp分支和活动分支的差别，并生成patch文件
  git merge tmp #合并分支到/origin/master
@@ -32,6 +32,9 @@ title: Git常用命令
  git remote add origin git@github.com:username/project-name.git #添加远程仓库，另名为origin
  git clone git@github.com:username/project-name.git  #把远程仓库克隆到本了，生成文件夹project-name ,此时project-name中的远程分支另名为origin
  git remote rm origin #删除远程分支的另名，origin,如果要重新添加，就要用git remote add url
+ git format-patch -M master #比较当前分支与master分支的差别，并生成0001-<commit>-.patch 
+0002-<commit>-.patch 
+ git am 0001-<commit>-.patch #应用patch文件到当前的分支中
 
  </code>
 </pre>
