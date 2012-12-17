@@ -1,7 +1,6 @@
-
 ---
 layout: post
-uri :/posts/11
+uri: /posts/11
 permalink: /posts/11/index.html
 title: CrystaX，一个第三方Android NDK，扩充了google官方NDK没有的实用
 ---
