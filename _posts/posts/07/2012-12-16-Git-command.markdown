@@ -23,8 +23,8 @@ title: Git常用命令
  git log -p master ../origin/master #比较本地的master分支和origin/master分支的差别
  git merge origin/master #合并分支
  git  fetch origin master:tmp #从远程下载最新的版本到tmp分支
- git diff tmp #比较tmp分支和origin/master分支的差别
- git diff tmp > 0001.patch #比较tmp分支和origin/master分支的差别，并生成patch文件
+ git diff tmp #比较tmp分支和当前活动的分支（默认主分支为master)
+ git diff tmp > 0001.patch #比较tmp分支和活动分支的差别，并生成patch文件
  git merge tmp #合并分支到/origin/master
  git pull origin master #相当于从远程获取最新的版本并merge(合并）到本地的master分支，相当于git fetch和git merge 
  git checkout branch-name #可以切换分支和检出分支
