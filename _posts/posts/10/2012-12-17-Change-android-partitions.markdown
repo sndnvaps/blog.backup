@@ -4,7 +4,7 @@ uri: /posts/10
 permalink: /posts/10/index.html
 title : 修改U88内部分区{转载}
 
-
+---
 [原文链接](http://bbs.hiapk.com/thread-1273024-1-1.html)
 
 众所周知，U88 内部有2Gb的闲置用户空间，不插入TF 存储卡时才能用，放入TF卡后，这块存储空间就闲置无法使用了，比较可惜！
