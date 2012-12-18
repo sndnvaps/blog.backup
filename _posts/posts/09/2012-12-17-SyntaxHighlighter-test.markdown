@@ -82,6 +82,7 @@ func main() {
   fmt.Println(c ,"is bigger than 6")
    } else {
   fmt.Println(c ,"is smaller the 6")
+  }
  }
 }
 </pre>
@@ -116,9 +117,9 @@ func main() {
   fmt.Println(c ,"is bigger than 6")
    } else {
   fmt.Println(c ,"is smaller the 6")
+  }
  }
 }
-
 </pre>
 
 
