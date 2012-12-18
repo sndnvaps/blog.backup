@@ -43,7 +43,7 @@ go语言专用笔刷：
 
 ###效果如下：
 
-<pre class="brush: bash;">
+<pre class="brush: bash">
 
  $ mkdir highlight.js
  $ cd highlight.js
@@ -54,7 +54,7 @@ go语言专用笔刷：
 ###源代码_ golang
 
 {% highlight html %}
- <pre class="brush: go;">
+ <pre class="brush: go">
   package main 
   import "fmt"
   import "os"
@@ -88,7 +88,7 @@ func main() {
 {% endhighlight %}
 
 
-<pre class="brush: go;">
+<pre class="brush: go">
  package main 
   import "fmt"
   import "os"
