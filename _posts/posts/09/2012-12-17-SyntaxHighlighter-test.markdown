@@ -84,7 +84,7 @@ func main() {
   fmt.Println(c ,"is smaller the 6")
  }
 }
-
+</pre>
 {% endhighlight %}
 
 
