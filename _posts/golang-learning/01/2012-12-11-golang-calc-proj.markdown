@@ -18,7 +18,7 @@ title: golang-learnging
 *    [构建工程](#proj)
      *    [把当前的目录加入到GOPATH中](#proj1)
 	 *    [编译](#proj2)
-	 *    [测试](#proj3)
+	     *          [测试](#proj3)
 	 *    [运行一下](#proj4)
 * * *
 
@@ -68,7 +68,7 @@ title: golang-learnging
 根据不同的系统环境作相应的修改的，
 
 <pre>
- <code>
+ <code class="bash">
   set GOPATH=E:\work\calcproj   #这是在windows系统下面的设置
 
   export GOPATH=/home/sn/calcproj   #这是在linux系统下面的设置
