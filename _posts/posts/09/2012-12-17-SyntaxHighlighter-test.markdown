@@ -14,13 +14,13 @@ title: 用syntaxhighlighter_3.0.83.js实现语法高亮
 
 {% highlight html %}
 
-<!—必须添加--> 
+<!—-必须添加--> 
 <script type="text/javascript" src="scripts/shCore.js"></script> 
-<!—下面是根据语言进行添加--> 
+<!—-下面是根据语言进行添加--> 
 <script type="text/javascript" src="scripts/shBrushJScript.js"></script>
  <script type="text/javascript" src="scripts/shBrushCSharp.js"></script> 
  <script type="text/javascript" src="scripts/shBrushBash.js"></script>
- <!-添加了JScript,Bash,CSharp三个语言的支持-->
+ <!--添加了JScript,Bash,CSharp三个语言的支持-->
   <link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
  <script type="text/javascript">SyntaxHighlighter.all();</script>  
 
