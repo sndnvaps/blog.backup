@@ -18,8 +18,8 @@ title: golang-learnging
    - [构建工程](#proj)
      - [把当前的目录加入到GOPATH中](#proj1)
 	 - [编译](#proj2)
-           -  [测试](#proj3)
-	 -  [运行一下](#proj4)
+     - [测试](#proj3)
+	 - [运行一下](#proj4)
 * * *
 
 
