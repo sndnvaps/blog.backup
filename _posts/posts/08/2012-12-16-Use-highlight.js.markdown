@@ -49,7 +49,20 @@ title: 使用highlight.js实现博客中的代码高亮
  </code>
 </pre>
 
-
+##golang test
+<pre>
+ <code class="go">
+ package main
+ import "fmt"
+ func main() {
+ <span sytle="background:green">  </span>fmt.Println("Hello World")
+ }
+ </code>
+</pre>
+##test 
+<pre>
+ <code>
+ <del>Del</del><!--comment-->    <ins>underline</ins>
 
 **重点**
 在
