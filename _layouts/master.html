@@ -49,26 +49,42 @@
   <body>
    <!--开始定义导航栏-->
   	<div id='top-place' class='fix-top'></div>
-    <div id='wrapper'>
-      <div id='header' class='fix-top'>
-        <h1><a href='/'>sndnvaps</a></h1>
-        
-        <div id='menu'>
-          <ul>
-            <li><a href='/' id='home-link' title='首页'>首页</a></li>
-            <li><a href='/blog.html' id='blog-link' title='博客'>博客</a></li>
-            <li><a href='/docs.html' id='docs-link' title='文档'>文档</a></li>
-			<li><a href='/picture.html' id='picture-link' title='图片'>图片</a></li>
-            <li><a href='/about.html' id='about-link' title='关于'>关于</a></li>
-            <li><a href='http://github.com/sndnvaps' target='_blank' title='GitHub' rel='me' id='github-link'>GitHub</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id='content'>
-        {{ content }}
-        <div class='clearfix'></div>
-      </div>
-    </div>
+     <!-- Dropdown menu -->
+ 
+ <ul id="cssdropdown">
+
+		<li class="headlink">
+			<a href="http://google.com/">Search Engines</a>
+
+			<ul>
+				<li><a href="http://google.com/">Google</a></li>
+				<li><a href="http://yahoo.com/">Yahoo</a></li>
+				<li><a href="http://live.com/">Live Search</a></li>
+			</ul>
+		</li>
+		<li class="headlink">
+			<a href="http://shopping.com">Shopping</a>
+
+			<ul>
+				<li><a href="http://amazon.com/">Amazon</a></li>
+				<li><a href="http://ebay.com/">eBay</a></li>
+				<li><a href="http://craigslist.com/">CraigsList</a></li>
+			</ul>
+		</li> 
+		<li class="headlink">
+		  <a href="http://y.ipy.cc/">My Blog</a>
+		      
+			  <ul>
+			       <li><a href="http://y.ipy.cc/about.html">About Me</a></li>
+				   <li><a href="http://y.ipy.cc/blog.html">Blog </a></li>
+				   <li><a href="http://y.ipy.cc/picture.html">Picture </a></li>
+			  </ul>
+		</li>
+
+	</ul>
+	
+  <!-- End of dropdown menu -->
+    
   <!--定义导航栏结束-->
    
     <div id='footer'>
