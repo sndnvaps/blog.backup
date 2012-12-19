@@ -17,10 +17,10 @@
 	  <script>hljs.initHighlightingOnLoad();</script>
 	<!--结束定义highlight.js-->
 	
-	<!-- 定义dropdown menu -->
+	<!-- 定义dropdown menu 
 	<link rel="stylesheet" href="/stylesheets/dropdown-menu.css" media="screen"  type="text/css" charset="utf-8">
 	<script src="/javascripts/dropdown-menu.js" type="text/javascript" charset="utf-8"></script>
-	<!-- 结束定义dropdown menu -->
+	 结束定义dropdown menu -->
 	
 	
 	<!--开始定义syntaxhighlighter_3.0.83.js语法高亮脚本-->
@@ -47,9 +47,14 @@
     <script src="/javascripts/ga.js" type="text/javascript" charset="utf-8" id="UA-31635531-1"></script>
   </head>
   <body>
-   <!--开始定义导航栏-
-  	<div id='top-place' class='fix-top'></div>
-      Dropdown menu -->
+   <!--开始定义导航栏-->
+  	
+	<div id='top-place' class='fix-top'></div>
+    <div id='wrapper'>
+      <div id='header' class='fix-top'>
+        <h1><a href='/'>sndnvaps</a></h1>
+        
+      <!-- Dropdown menu -->
  
  <ul id="cssdropdown">
 
@@ -84,8 +89,16 @@
 	</ul>
 	
   <!-- End of dropdown menu -->
+	  
+      </div>
+      <div id='content'>
+        {{ content }}
+        <div class='clearfix'></div>
+      </div>
+    </div>
+     
     
-  <!--定义导航栏结束-->
+  
    
     <div id='footer'>
   Copyright &copy; 2012 sndnvaps. Hosted by <a href='http://github.com/sndnvaps/sndnvaps.github.com/' target='_blank'>GitHub</a> and powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>. Templates from <a href='http://github.com/mbleigh/mbleigh.github.com/' target='_blank'>Michael Bleigh</a>. and 
@@ -125,3 +138,5 @@
     
   </body>
 </html>
+
+
