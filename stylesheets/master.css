@@ -373,7 +373,7 @@ a img {
 #cssdropdown li.headlink ul li a:hover { background-color: #333; }
 	
 	/* Pretty styling */
-body { font-family: verdana, arial, sans-serif; font-size: 0.8em; background-color: white; background-image: url(/images/dropdown-menu/bg_2.gif); }
+body { font-family: verdana, arial, sans-serif; font-size: 0.8em; background-color: white; }
 #cssdropdown a { color: white; } #cssdropdown ul li a:hover { text-decoration: none; }
 #cssdropdown li.headlink { background-color: white; background-image: url(/images/dropdown-menu/bg_1.gif); }
 #cssdropdown li.headlink ul { background-image: url(/images/dropdown-menu/bg.gif); background-position: bottom; padding-bottom: 10px; }
