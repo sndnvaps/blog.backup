@@ -18,7 +18,7 @@ title: 改变git log显示的颜色
 <img src="/images/post/posts/12/git-log-1.png" width="590" height="361" border="0" alt="" title="what i modify"/img>
 
 
-<h3>其它操作是很简单的。输入如下的代码就行了</h3>
+<h3>其实操作是很简单的。输入如下的代码就行了</h3>
 
  {% highlight bash %}
 
