@@ -1,0 +1,55 @@
+---
+layout: post
+uri: /posts/12
+permalink: /posts/12/2012-12-21-index.html
+title: 改变git log显示的颜色
+---
+
+<h3>A beter git log</h3>
+<h3> 一个更好看的git log </h3>
+
+ <h4>1. 下面显示的是通常我们看到的git log，输出的内容：</h4>
+
+<img src="/images/post/posts/12/git-log-2.png" width="590" height="361" border="0" alt=""title="the origin pic"/img>
+
+ <h4>2. 如果我修改成下面的这个样子，怎么样呢?</h4>
+
+
+<img src="/images/post/posts/12/git-log-1.png" width="590" height="361" border="0" alt="" title="what i modify"/img>
+
+
+<h3>其它操作是很简单的。输入如下的代码就行了</h3>
+
+ {% highlight bash %}
+
+$ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+{% endhighlight %}
+
+ 如果你认为上面的代码太长了，没有关系
+我们用alias来使代码更加简单。把下面的代码复制和粘贴到你的终端里面（linux系统或者是cygwin 才支持的)
+
+{% highlight bash %}
+
+ $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+{% endhighlight %}
+
+每一次，你需要查看log的时候，只需要输入
+
+{% highlight bash %}
+
+ $ git lg
+
+{% endhighlight %}
+
+如果你需要查看一下，哪些行被修改了，可以用下面的命令：
+
+{% highlight bash %}
+
+ $ git lg -p 
+
+{% endhighlight %}
+
+<img src="/images/post/posts/12/git-log-3.png" width="577" height="403" title="just type" border="0" alt=""/img>
+
