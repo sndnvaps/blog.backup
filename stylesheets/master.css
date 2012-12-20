@@ -243,12 +243,23 @@ div.related {
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 }
-
-#footer a {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+/* modify from page.css */
+#footer a:link {
+color: #09f;
+font-weight: bold;
+	
 }
+
+#footer a:visited{
+text-decoration:none;
+				}
+#footer a:hover{
+color:#0f9;
+}
+#footer a:active{
+color:#f90;
+}
+/* End */
 
 .home-box {
 	float: left;
