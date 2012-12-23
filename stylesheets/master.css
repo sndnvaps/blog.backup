@@ -370,17 +370,17 @@ a img {
 
 /* Dropdown menu begin */
 /* General */
-/*
+
 #cssdropdown, #cssdropdown ul { list-style: none; }
 #cssdropdown, #cssdropdown * { padding: 0; margin: 0; }
 	
 	/* Head links */
-/*
+/
 #cssdropdown li.headlink { width: 220px; float: left; margin-left: -1px; border: 1px black solid; background-color: #e9e9e9; text-align: center; }
 #cssdropdown li.headlink a { display: block; padding: 15px; }
 
 	/* Child lists and links */
-	/*
+	/
 #cssdropdown li.headlink ul { display: none; border-top: 1px black solid; text-align: left; }
 #cssdropdown li.headlink:hover ul { display: block; }
 #cssdropdown li.headlink ul li a { padding: 5px; height: 17px; }
@@ -388,14 +388,15 @@ a img {
 	
 	/* Pretty styling */
  /*  body { font-family: verdana, arial, sans-serif; font-size: 0.8em; background-color: white; } */
- /*
+ 
 #cssdropdown a { color: white; } #cssdropdown ul li a:hover { text-decoration: none; }
 #cssdropdown li.headlink { background-color: white; background-image: url(/images/dropdown-menu/bg_1.gif); }
 #cssdropdown li.headlink ul { background-image: url(/images/dropdown-menu/bg.gif); background-position: bottom; padding-bottom: 10px; }
 /* Dropdown menu End */
 
-
+/
 /* New design dropdown menu */
+/*
 .dropdown, .dropdown ul  {
 	list-style: none;
 	margin: 0;
@@ -414,3 +415,4 @@ a img {
 .dropdown li.headlink { background-color: white; background-image: url(/images/dropdown-menu/bg_1.gif); }
 .dropdown li.headlink ul { backgroud-image: url(/images/dropdown-menu/bg.gif); background-position: bottom; padding-bottom: 10px; }
 
+*/
