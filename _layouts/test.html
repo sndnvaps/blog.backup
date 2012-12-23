@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html  xmlns:wb="http://open.weibo.com/wb">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+ ================================================== -->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta property="wb:webmaster" content="80aab6322ade11d2" />
+    <title>sndnvaps - {{ page.title }}</title>
+    <link rel="shortcut icon" href="/images/binary.ico" />
+    <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel="stylesheet" href="/stylesheets/syntax.css" type="text/css" media="screen" charset="utf-8"/>
+    <link rel="stylesheet" href="/stylesheets/dynamic-to-top.css" type="text/css" media="screen" charset="utf-8"/>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=2104908593" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/jquery.github.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/ga.js" type="text/javascript" charset="utf-8" id="UA-31635531-1"></script>
+	
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!-- CSS
+ ================================================== -->
+
+  <link rel="stylesheet" href="/javascripts/NewStyles/css/site.css">
+  <link rel="stylesheet" href="/javascripts/NewStyles/css/prettify.css">
+<!--[if IE 7]>
+  <link rel="stylesheet" href="/javascripts/NewStyles/css/font-awesome-ie7.css">
+<![endif]-->
+  <!-- Le fav and touch icons -->
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30136587-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+
+
+
+<body>
+<!-- For navigation -->
+<div id="overview"></div>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <h3><a class="brand" href="/"><i class="icon-flag"></i>Sndnvaps Blog</a></h3>
+      <ul class="nav">
+        <li><a href="http://y.ipy.cc/about.html">About</a></li>
+        <li><a href="http://y.ipy.cc/picture.html">Picture</a></li>
+        <li><a href="http://y.ipy.cc/docs.html">Docs</a></li>
+        <li><a href="https://github.com/sndnvaps/">My Github</a></li>
+        <li><a href="https://gist.github.com/sndnvaps">My Code</a></li>
+      </ul>
+      <ul class="nav pull-right">
+        <li><a href="mailto:sndnvaps@gmail.com"><i class="icon-envelope"></i> Me</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+      <div id='content'>
+        {{ content }}
+        <div class='clearfix'></div>
+      </div>
+
+
+<div id='footer'>
+  Copyright &copy; 2012 sndnvaps. Hosted by <a href='http://github.com/sndnvaps/sndnvaps.github.com/' target='_blank'>GitHub</a> and powered by <a href='http://github.com/mojombo/jekyll'>Jekyll</a>. Templates from <a href='http://github.com/mbleigh/mbleigh.github.com/' target='_blank'>Michael Bleigh</a>. and 
+  <a href='http://github.com/hzmook/hzmook.github.com/' target='_blank'>Hzmook</a>.
+    </div>
+
+
+
+
+
+<script type="text/template" id="modal-template">
+  <div class="modal hide fade in">
+    <div class="modal-header">
+      <a class="close" data-dismiss="modal"><i class="icon-remove"></i></a>
+      <h3><%= iconName %></h3>
+    </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="span3 icon6">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            340px
+          </div>
+        </div>
+        <div class="span3 icon5">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            180px
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span2 icon4">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            100px
+          </div>
+        </div>
+        <div class="span2 icon3">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            50px
+          </div>
+        </div>
+        <div class="span1 icon2">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            20px
+          </div>
+        </div>
+        <div class="span1 icon1">
+          <div class="thumbnail">
+            <div><i class="<%= iconName %>"></i></div>
+            12 px
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</script>
+
+<script type="text/javascript" src="/javascripts/jquery.easing.js"></script>
+    <script type="text/javascript">
+		var mv_dynamic_to_top = {
+			id: 'dynamic-to-top',
+			version: '',
+			text: '»Øµ½¶¥²¿',
+			easing: 'easeInExpo',
+			fade_in: 600,
+			fade_out: 400,
+			margin: 20,
+			min: 300,
+			speed: 1100
+		};
+	</script>
+	<script type="text/javascript" src="/javascripts/dynamic.to.top.js?ver=3.3.1"></script>
+
+
+
+<script src="/javascripts/NewStyles/js/jquery-1.7.1.min.js"></script>
+<script src="/javascripts/NewStyles/js/underscore.min.js"></script>
+<script src="/javascripts/NewStyles/js/backbone.min.js"></script>
+<script src="/javascripts/NewStyles/js/prettify.min.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-transition.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-alert.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-modal.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-dropdown.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-scrollspy.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-tab.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-tooltip.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-popover.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-button.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-collapse.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-carousel.js"></script>
+<script src="/javascripts/NewStyles/js/tw-bs-201/bootstrap-typeahead.js"></script>
+<script src="/javascripts/NewStyles/js/index/index.js"></script>
+
+</body>
+</html>
