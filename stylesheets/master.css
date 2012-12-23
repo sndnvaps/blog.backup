@@ -370,22 +370,47 @@ a img {
 
 /* Dropdown menu begin */
 /* General */
+/*
 #cssdropdown, #cssdropdown ul { list-style: none; }
 #cssdropdown, #cssdropdown * { padding: 0; margin: 0; }
 	
 	/* Head links */
+/*
 #cssdropdown li.headlink { width: 220px; float: left; margin-left: -1px; border: 1px black solid; background-color: #e9e9e9; text-align: center; }
 #cssdropdown li.headlink a { display: block; padding: 15px; }
 
 	/* Child lists and links */
+	/*
 #cssdropdown li.headlink ul { display: none; border-top: 1px black solid; text-align: left; }
 #cssdropdown li.headlink:hover ul { display: block; }
 #cssdropdown li.headlink ul li a { padding: 5px; height: 17px; }
 #cssdropdown li.headlink ul li a:hover { background-color: #333; }
 	
 	/* Pretty styling */
-body { font-family: verdana, arial, sans-serif; font-size: 0.8em; background-color: white; }
+ /*  body { font-family: verdana, arial, sans-serif; font-size: 0.8em; background-color: white; } */
+ /*
 #cssdropdown a { color: white; } #cssdropdown ul li a:hover { text-decoration: none; }
 #cssdropdown li.headlink { background-color: white; background-image: url(/images/dropdown-menu/bg_1.gif); }
 #cssdropdown li.headlink ul { background-image: url(/images/dropdown-menu/bg.gif); background-position: bottom; padding-bottom: 10px; }
 /* Dropdown menu End */
+
+
+/* New design dropdown menu */
+.dropdown, .dropdown ul  {
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.dropdown, .dropdown * { padding: 0; margin: 0;}
+.dropdown li.headlink { width:220px; float: left; margin-left; -1px ; border: 1px black solid; background-color: #e9e9e9; text-align: center; }
+.dropdown li.headlink a { display: block; padding: 15px; }
+.dropdown li.headlink:hover ul { display: block ;}
+.dropdown li.headlink ul li a { padding: 5px; height: 17px; }
+.dropdown li.headlink ul li a:hover { background-color: #333; }
+.dropdown  a { color: white; } 
+.dropdown ul li a:hover { text-decoration: none; }
+.dropdown li.headlink { background-color: white; background-image: url(/images/dropdown-menu/bg_1.gif); }
+.dropdown li.headlink ul { backgroud-image: url(/images/dropdown-menu/bg.gif); background-position: bottom; padding-bottom: 10px; }
+
