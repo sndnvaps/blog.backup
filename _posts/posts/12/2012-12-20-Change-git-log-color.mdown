@@ -58,5 +58,7 @@ $ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset \
 {% endhighlight %}
 
 下面是效果图：
+
+
 <img src="/images/post/posts/12/git-log-3.png" width="577" height="403" title="just type" border="0" alt=""/img>
 
